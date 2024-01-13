@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  height: 90vh;
+}
+
+.crop-section {
+  margin-left: 2rem;
+}
+
+.actions {
+  margin-bottom: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reset-zoom {
+    border: none;
+    padding: unset;
+    color: #2962ff;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.crops {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
